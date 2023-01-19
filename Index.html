@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <div id="new-movie" class="jumbotron">
+        <h2>Movie</h2>
+        <form>
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input class="form-control" id="Name" name="Name" type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="Genre">Genre</label>
+                <input class="form-control" id="Genre" name="Genre" type="text" placeholder="Genre">
+            </div>
+            <div class="form-group">
+                <label for="Rating">Rating</label>
+                <input class="form-control" id="Rating" name="Rating" type="text" placeholder="Rating">
+            </div>
+            <button id="create-new-movie" class="btn btn-primary form-control">Create</button>
+        </form>
+    </div>
+
+    <div id="app">
+
+    </div>
+    
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
